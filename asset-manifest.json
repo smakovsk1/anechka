@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/anechka/static/css/main.132559ff.css",
+    "main.js": "/anechka/static/js/main.9ca53234.js",
+    "index.html": "/anechka/index.html",
+    "main.132559ff.css.map": "/anechka/static/css/main.132559ff.css.map",
+    "main.9ca53234.js.map": "/anechka/static/js/main.9ca53234.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.132559ff.css",
+    "static/js/main.9ca53234.js"
+  ]
+}
