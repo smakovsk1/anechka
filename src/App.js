@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import './App.css';
 
 const CHOCOS = ['🍫','🍬','🍭','🍩','🍪','🧁'];
-const LABELS = ['болтушка','ты ваще не тут','пипяу','западный кз','пиявка','повалили','бебебе','вафлэ','чечетка','ццц'];
+const LABELS = ['болтушка','ты ваще не тут','пипяу','западный кз','туууууй','повалили','бебебе','вафлэ','чечетка','ццц'];
 const POSITIONS = [
   {top:'12%',left:'8%'},{top:'10%',left:'62%'},{top:'20%',left:'85%'},
   {top:'70%',left:'70%'},{top:'90%',left:'55%'},{top:'82%',left:'10%'},
@@ -10,7 +10,7 @@ const POSITIONS = [
 ];
 const ROTATIONS = [-8,5,-4,7,-6,3,-10,6,-3,8];
 const COLORS = ['#c0305a','#a0206a','#d04070','#8b1a3a','#b03060','#c84878','#903050','#d05080','#a82858','#b83868'];
-const SIZES = [22,26,24,28,23,25,27,22,26,24];
+const SIZES = [22,26,24,28,23,25,27,22,26,30];
 
 function Background() {
   const ref = useRef(null);
