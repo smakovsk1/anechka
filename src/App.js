@@ -62,7 +62,7 @@ function Popup({ onClose }) {
         <button className="popup-close" onClick={onClose}>закрыть</button>
         <div className="player-wrap">
   <iframe
-    src="https://www.youtube.com/embed/tRAoxHdkFDQ?autoplay=0&controls=1"
+    src="https://www.youtube.com/embed/xdDhmagsXrc"
     title="Моргенштерн - Пососи"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope"
     allowFullScreen
