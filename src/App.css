@@ -130,3 +130,16 @@
   transition: background 0.2s, color 0.2s;
 }
 .popup-close:hover { background:#f05585; color:#fff; border-color:#f05585; }
+.player-wrap {
+  margin-top: 24px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 30px rgba(200,50,100,0.25);
+  animation: textIn 2.2s ease-out 1s both;
+}
+.player-wrap iframe {
+  width: 320px;
+  height: 180px;
+  border: none;
+  display: block;
+}

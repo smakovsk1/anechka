@@ -60,6 +60,14 @@ function Popup({ onClose }) {
         <span className="popup-sub">навсегда и всегда 🌸</span>
         <br />
         <button className="popup-close" onClick={onClose}>закрыть</button>
+        <div className="player-wrap">
+  <iframe
+    src="https://www.youtube.com/embed/tRAoxHdkFDQ?autoplay=0&controls=1"
+    title="Моргенштерн - Пососи"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope"
+    allowFullScreen
+  />
+</div>
       </div>
     </div>
   );
@@ -98,7 +106,7 @@ export default function App() {
           {['🌸','🌺','🌹','🌷','🌸'].map((f, i) => <span key={i} className="flower">{f}</span>)}
         </div>
         <p className="tagline">з любов'ю · с любовью · махаббатпен</p>
-        <button className="love-btn" onClick={() => setShowPopup(true)}>🌹 Нажми меня</button>
+        <button className="love-btn" onClick={() => setShowPopup(true)}> Нажми меня</button>
       </div>
       {showPopup && <Popup onClose={() => setShowPopup(false)} />}
     </div>
