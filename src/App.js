@@ -97,7 +97,7 @@ export default function App() {
         <div className="flowers-row">
           {['🌸','🌺','🌹','🌷','🌸'].map((f, i) => <span key={i} className="flower">{f}</span>)}
         </div>
-        <p className="tagline">з любов'ю · с любовью · with love</p>
+        <p className="tagline">з любов'ю · с любовью · махаббатпен</p>
         <button className="love-btn" onClick={() => setShowPopup(true)}>🌹 Нажми меня</button>
       </div>
       {showPopup && <Popup onClose={() => setShowPopup(false)} />}
