@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/anechka/static/css/main.7d582c28.css",
-    "main.js": "/anechka/static/js/main.57f1b275.js",
+    "main.css": "/anechka/static/css/main.1030c99c.css",
+    "main.js": "/anechka/static/js/main.30be80e0.js",
     "index.html": "/anechka/index.html",
-    "main.7d582c28.css.map": "/anechka/static/css/main.7d582c28.css.map",
-    "main.57f1b275.js.map": "/anechka/static/js/main.57f1b275.js.map"
+    "main.1030c99c.css.map": "/anechka/static/css/main.1030c99c.css.map",
+    "main.30be80e0.js.map": "/anechka/static/js/main.30be80e0.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d582c28.css",
-    "static/js/main.57f1b275.js"
+    "static/css/main.1030c99c.css",
+    "static/js/main.30be80e0.js"
   ]
 }
