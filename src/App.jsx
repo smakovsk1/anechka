@@ -73,7 +73,7 @@ export default function App() {
             <span key={i} className="flower">{f}</span>
           ))}
         </div>
-        <p className="tagline">з любов'ю · с любовью · with love</p>
+        <p className="tagline">з любов'ю · с любовью · махаббатпен</p>
       </div>
     </div>
   );
